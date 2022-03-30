@@ -9,7 +9,7 @@ spring:
       register-with-eureka: true
       fetch-registry: true
       serviceUrl:
-        defaultZone: http://eureka:8761/eureka}
+        defaultZone: http://eureka:8761/eureka
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
